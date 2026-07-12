@@ -1,0 +1,14 @@
+.inputNameStyle{
+    border:2px solid black;
+    border-radius:5px;
+}
+.inputDateStyle
+{
+    border: 2px solid black;
+     border-radius: 5px;
+}
+input:focus {
+  outline: none;
+  border-color: transparent;
+  box-shadow: none;
+}
