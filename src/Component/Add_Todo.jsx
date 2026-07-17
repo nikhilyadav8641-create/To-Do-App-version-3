@@ -1,5 +1,7 @@
 import { useState } from "react"
 import style from "./Add_Todo.module.css"
+import { MdDownloadDone } from "react-icons/md";
+
 function AddToDo({ onNewItem }) {
   const [todoName, setTodoName] =useState("")
   const [dueDate, setDueDate]=useState(" ")
@@ -28,7 +30,7 @@ function AddToDo({ onNewItem }) {
           <div className="col-2">
             <button type="button" className="btn btn-success kg_button" 
             onClick={handleAddButtonClicked}>
-              Add
+              <MdDownloadDone />
             </button>
           </div>
         </div>
